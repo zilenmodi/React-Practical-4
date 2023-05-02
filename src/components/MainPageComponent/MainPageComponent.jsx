@@ -76,8 +76,7 @@ const MainPageComponent = ({
                         ) : (
                           <>
                             <select className="status-dropdown">
-                              <option>Manager</option>
-                              <option>Read</option>
+                              <option>{user.access}</option>
                             </select>
                           </>
                         )}
@@ -94,9 +93,7 @@ const MainPageComponent = ({
           </table>
         </div>
         <div className="user-card-area">
-          <div className="user-card">
-            <HoverCardContainer />
-          </div>
+          <HoverCardContainer />
           <div className="side-strip"></div>
         </div>
       </div>

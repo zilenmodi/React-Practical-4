@@ -86,6 +86,7 @@
     border: none;
     border-right: 13px solid transparent;
     outline: 1px solid #D1D5DB;
+    width: 70%;
 }
 
 .status-active-text {
@@ -100,13 +101,13 @@
 
 .user-card-area {
     display: flex;
-    /* align-items: flex-end; */
+    position: relative;
     justify-content: end;
     flex: 1;
 }
 
 .side-strip {
-    background-color: #d0d6df;
+    background-color: #d8dce3;
     width: 6rem;
     height: 100%;
 }
