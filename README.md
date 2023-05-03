@@ -30,7 +30,8 @@ The project structure is organized into **`src`** folder.
 - **`src/components`**: contains the reusable UI components.
 - **`src/containers`**: contains the components that manage the application state and use the UI components.
 - **`src/redux`**: contains the Redux store, reducers, and actions.
-  ![Image 1](./src/assets/folderStructure.png)
+
+![Image 1](./src/assets/folderStructure.png)
 
 ## **Using the Application**
 
